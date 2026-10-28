@@ -15,8 +15,8 @@
     <xacro:property name="torque_constant" value="0.0092" />
     <xacro:property name="rpm_scaler" value="1" />
     <xacro:property name="max_rpm" value="3000" />
-    <xacro:property name="timeconstant_up" value="0.00" />
-    <xacro:property name="timeconstant_down" value="0.00" />
+    <xacro:property name="timeconstant_up" value="0.4" />
+    <xacro:property name="timeconstant_down" value="0.4" />
 
     <xacro:property name="propeller_mesh" value="$(find hippo_sim)/models/thruster/meshes/propeller.dae" />
 </robot>
