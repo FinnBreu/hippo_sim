@@ -7,10 +7,10 @@
 
     <xacro:property name="thruster_r" value="0.06" />
 
-    <xacro:property name="added_mass_linear" value="1.11 2.8 2.8" />
-    <xacro:property name="added_mass_angular" value="0.00451 0.0163 0.0163"/>
-    <xacro:property name="damping_linear" value="5.39 17.36 17.36"/>
-    <xacro:property name="damping_angular" value="0.00174 0.007 0.007"/>
+    <xacro:property name="added_mass_linear" value="1.1 2.8 2.8" />
+    <xacro:property name="added_mass_angular" value="0.0018 0.01 0.01"/>
+    <xacro:property name="damping_linear" value="4.6 17.4 17.4"/>
+    <xacro:property name="damping_angular" value="0.003 0.05 0.05"/>
 
     <xacro:arg name="use_vertical_camera" default="false" />
     <xacro:property name="vertical_camera_position" value="0.15 0.0 -0.03" />
