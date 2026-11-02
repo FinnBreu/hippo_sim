@@ -5,6 +5,11 @@
     <xacro:property name="iyy" value="0.028" />
     <xacro:property name="izz" value="0.028" />
 
+    <!-- Weight minus buoyancy in N; negative means the vehicle rises. -->
+    <xacro:property name="net_weight" value="-1" />
+    <!-- Center of buoyancy relative to the center of gravity, in metres. -->
+    <xacro:property name="cg_cb_offset" value="0.01 0 0.005" />
+
     <xacro:property name="thruster_r" value="0.06" />
 
     <xacro:property name="added_mass_linear" value="1.1 2.8 2.8" />
