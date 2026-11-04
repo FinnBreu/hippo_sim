@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Static Foxglove pool at the map pose used by tools.visualization. -->
+<robot name="pool_visual">
+  <link name="map">
+    <visual>
+      <origin xyz="1.0 2.0 -1.5" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hippo_sim/models/pool/meshes/pool.dae"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

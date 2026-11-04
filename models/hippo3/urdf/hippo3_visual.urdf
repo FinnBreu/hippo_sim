@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Foxglove display model. hippo_simple.stl is the complete vehicle mesh,
+     in metres with its origin and axes aligned to base_link. The simulation
+     model remains hippo3.xacro. -->
+<robot name="hippo3_visual">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hippo_sim/models/hippo3/meshes/hippo_simple.stl"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

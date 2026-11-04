@@ -6,7 +6,7 @@
     <xacro:property name="izz" value="0.028" />
 
     <!-- Weight minus buoyancy in N; negative means the vehicle rises. -->
-    <xacro:property name="net_weight" value="-1" />
+    <xacro:property name="net_weight" value="-2" />
     <!-- Center of buoyancy relative to the center of gravity, in metres. -->
     <xacro:property name="cg_cb_offset" value="0.01 0 0.005" />
 
